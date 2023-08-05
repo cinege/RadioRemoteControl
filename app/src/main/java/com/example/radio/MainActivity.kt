@@ -49,9 +49,9 @@ class MainActivity : AppCompatActivity() {
         button5 = findViewById(R.id.button5)
         button5?.setOnClickListener{send_POST("5")}
         button6 = findViewById(R.id.button6)
-        button6?.setOnClickListener{send_POST("6")}
+        button6?.setOnClickListener{send_POST("100")}
         button7 = findViewById(R.id.button7)
-        button7?.setOnClickListener{send_POST("100")}
+        button7?.setOnClickListener{send_POST("200")}
 
     }
 
