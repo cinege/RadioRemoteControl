@@ -32,6 +32,7 @@ class MainActivity : AppCompatActivity() {
     private var button5: Button? = null
     private var button6: Button? = null
     private var button7: Button? = null
+    private var button8: Button? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -49,9 +50,11 @@ class MainActivity : AppCompatActivity() {
         button5 = findViewById(R.id.button5)
         button5?.setOnClickListener{send_POST("5")}
         button6 = findViewById(R.id.button6)
-        button6?.setOnClickListener{send_POST("100")}
+        button6?.setOnClickListener{send_POST("6")}
         button7 = findViewById(R.id.button7)
-        button7?.setOnClickListener{send_POST("200")}
+        button7?.setOnClickListener{send_POST("100")}
+        button8 = findViewById(R.id.button8)
+        button8?.setOnClickListener{send_POST("200")}
 
     }
 
