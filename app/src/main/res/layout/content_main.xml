@@ -71,7 +71,7 @@
         android:layout_height="50dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
-        android:text="Momo zene"
+        android:text="Polskie Radio Dziecom"
         android:textColor="@color/black"
         app:backgroundTint="@color/darkgreen"
         app:cornerRadius="8dp"
